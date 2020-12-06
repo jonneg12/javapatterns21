@@ -43,7 +43,7 @@ public class IntsCalculatorAdaptor implements Ints {
     @Override
     public int sub(int a, int b) {
 
-        return (int) calculator.newFormula()
+        return (int)calculator.newFormula()
                 .addOperand(a)
                 .addOperand(b)
                 .calculate(Calculator.Operation.SUB)
